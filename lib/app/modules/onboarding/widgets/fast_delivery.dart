@@ -1,13 +1,13 @@
-/*
+/**
 * @author: zongjian
-* @createTime: 2022/11/9 15:33
-* @description: Order Food Around You
+* @createTime: 2022/11/9 19:54
+* @description:
 */
 import 'package:flutter/material.dart';
 import 'package:yummie/app/themes/index.dart';
 
-class OrderFood extends StatelessWidget {
-  const OrderFood({super.key});
+class FastDelivery extends StatelessWidget {
+  const FastDelivery({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,14 +19,14 @@ class OrderFood extends StatelessWidget {
           const Center(
             child: Image(
               image: AssetImage(
-                'assets/images/onboarding/order_food.png',
+                'assets/images/onboarding/fast_delivery.png',
               ),
               height: 300.0,
               width: 300.0,
             ),
           ),
           Text(
-            'Order Food Around You',
+            'Fast Delivery',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: AppThemes.colors.ink,
