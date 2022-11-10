@@ -14,7 +14,7 @@ class AppScreenAdapt {
   static bool _isInit = false;
 
   /// 设计图宽度及高度
-  static const double _uiWidth = 750, _uiHeight = 1334;
+  static const double _uiWidth = 375, _uiHeight = 812;
 
   /// 屏幕宽度
   static double screenWidth = 0;

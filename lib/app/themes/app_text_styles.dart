@@ -6,6 +6,12 @@
 
 part of app_themes;
 
+enum Typography {
+  semiBold,
+  medium,
+  regular,
+}
+
 class AppTextStyles {
   AppTextStyles._();
 
@@ -14,4 +20,5 @@ class AppTextStyles {
     fontWeight: FontWeight.bold,
     color: AppThemes.colors.orangePrimary,
   );
+
 }

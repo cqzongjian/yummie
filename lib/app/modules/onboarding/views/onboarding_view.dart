@@ -19,7 +19,7 @@ class OnboardingView extends GetView<OnboardingController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppThemes.colors.scaffoldBackground,
+      backgroundColor: Colors.white,
       body: GetBuilder<OnboardingController>(
         id: OnboardingController.updatePageView,
         builder: (s) {
@@ -30,7 +30,7 @@ class OnboardingView extends GetView<OnboardingController> {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 900.h,
+                    height: 500.h,
                     child: PageView(
                       physics: const ClampingScrollPhysics(),
                       controller: s.pageController,

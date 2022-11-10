@@ -6,11 +6,15 @@
 
 library app_themes;
 
+import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:yummie/app/utils/app_screen_adapt.dart';
 
 part 'app_colors.dart';
 part 'app_text_styles.dart';
+part 'app_font_size.dart';
+part 'app_font_weight.dart';
+part 'app_spacing.dart';
 
 class AppThemes {
   AppThemes._();

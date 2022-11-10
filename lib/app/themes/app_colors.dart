@@ -9,6 +9,7 @@ part of app_themes;
 class AppColors {
 
   const AppColors({
+    required this.white,
     required this.scaffoldBackground,
     required this.bottomBarBackground,
     required this.orangeShade30,
@@ -28,13 +29,16 @@ class AppColors {
     required this.skyLighter,
     required this.skyLightest,
     required this.cyanShade30,
+    required this.cyanPrimary,
+    required this.cyanTint40,
 
     required this.redPrimary,
   });
 
   factory AppColors.light() {
     return const AppColors(
-      scaffoldBackground: Colors.white,
+      white: Colors.white,
+      scaffoldBackground: Color(0xffF6F7F8),
       bottomBarBackground: Colors.white,
       orangeShade30: Color(0xff912400),
       orangeShade20: Color(0xffB12E02),
@@ -53,11 +57,14 @@ class AppColors {
       skyLighter: Color(0xffE8EBEE),
       skyLightest: Color(0xffF6F7F8),
       cyanShade30: Color(0xff005267),
+      cyanPrimary: Color(0xff0BB8E4),
+      cyanTint40: Color(0xffE5F9FE),
 
       redPrimary: Color(0xffF55053),
     );
   }
 
+  final Color white;
   final Color scaffoldBackground;
   final Color bottomBarBackground;
   final Color orangeShade30;
@@ -78,6 +85,8 @@ class AppColors {
   final Color skyLightest;
 
   final Color cyanShade30;
+  final Color cyanPrimary;
+  final Color cyanTint40;
 
   final Color redPrimary;
 }
