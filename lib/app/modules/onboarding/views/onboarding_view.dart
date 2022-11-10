@@ -46,12 +46,12 @@ class OnboardingView extends GetView<OnboardingController> {
                   SizedBox(height: 100.h),
                   AppElevatedButton(
                       text: 'Get Started',
-                      onPressed: () {}
+                      onPressed: s.getStarted
                   ),
                   const SizedBox(height: 15.0),
                   AppOutlinedButton(
                       text: 'Login',
-                      onPressed: () {}
+                      onPressed: s.login
                   ),
                 ],
               ),

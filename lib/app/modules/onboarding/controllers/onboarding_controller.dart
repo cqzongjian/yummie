@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:yummie/app/modules/onboarding/widgets/indicator.dart';
+import 'package:yummie/app/routes/app_pages.dart';
 
 class OnboardingController extends GetxController {
   static const updatePageView = 1;
@@ -41,5 +42,13 @@ class OnboardingController extends GetxController {
       mainAxisAlignment: MainAxisAlignment.center,
       children: list,
     );
+  }
+
+  void login() {
+    Get.offAllNamed(Routes.HOME);
+  }
+
+  void getStarted() {
+    Get.offAllNamed(Routes.HOME);
   }
 }
