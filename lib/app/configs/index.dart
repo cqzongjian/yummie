@@ -1,7 +1,7 @@
 /*
 * @overview: App默认配置
-* @Author: rcc 
-* @Date: 2022-07-14 10:45:09 
+* @Author: zongjian
+* @Date: 2022-12-16 10:45:09
 */
 
 class AppConfigs {

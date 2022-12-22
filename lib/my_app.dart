@@ -6,6 +6,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:yummie/app/lang/translation_service.dart';
 import 'package:yummie/app/routes/app_pages.dart';
 import 'package:yummie/app/utils/app_screen_adapt.dart';
 import 'package:yummie/app/widgets/app_keyboard_dismiss.dart';
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
       title: "Application",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
+      translations: TranslationService(),
       builder: (BuildContext context, Widget? child) {
         AppScreenAdapt.init(context);
         // RcToast.init(() => Get.overlayContext!);
